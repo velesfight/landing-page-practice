@@ -1,0 +1,22 @@
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: var(--333333);
+
+}
+.nav-list__item {
+    
+}
+.nav-list__link {
+     color: var(--333333);
+
+     &:hover {
+        text-decoration: underline;
+     }  
+    }

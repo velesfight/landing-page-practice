@@ -1,0 +1,27 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+	font-weight: 400;
+
+	background-color: #F8F7F5;
+}
+
+.container {
+	max-width: 1780px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 30px;
+}
+
+.montserrat-font {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+}
+
+.nunito-font {
+	font-family: 'Nunito', sans-serif;
+	font-optical-sizing: auto;
+}
