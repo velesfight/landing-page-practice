@@ -14,6 +14,7 @@
 @import './blocks/round-figure-deco.css';
 @import './blocks/service-block.css';
 @import './blocks/paw-list.css';
+@import './blocks/slide-item.css';
 
 /* Sections */
 @import './sections/nav.css';
