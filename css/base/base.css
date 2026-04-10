@@ -16,6 +16,15 @@ body {
 	padding: 0 30px;
 }
 
+.container--small {
+
+}
+
+.container-medium {
+	max-width: 1532px;
+	
+}
+
 .montserrat-font {
 	font-family: 'Montserrat', sans-serif;
 	font-optical-sizing: auto;

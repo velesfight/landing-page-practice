@@ -1,0 +1,22 @@
+.section {
+
+}
+
+.section-service {
+
+} 
+
+
+
+.section-service__content {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0px 30px 30px;
+    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px 40px;
+    justify-content: center;
+}
+

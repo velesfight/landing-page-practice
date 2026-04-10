@@ -1,0 +1,28 @@
+
+.section-care__grid {
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+gap: 20px;
+
+ @media (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 80px;
+    text-align: center;
+}
+
+ @media (max-width: 767px) {
+    row-gap: 68px;
+ }
+}
+
+
+.section-care__content {
+    grid-column: span 5;
+
+}
+
+.section-care__list {
+    grid-column: span 3;
+}

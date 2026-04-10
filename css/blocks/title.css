@@ -1,0 +1,18 @@
+.title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 117%;
+    text-transform: capitalize;
+    color: var(--333333);
+
+      @media (max-width: 1199px) {
+        font-size: 40px;
+        line-height: 150%;
+    }
+
+    @media (max-width: 767px) {
+       font-size: 26px;
+       line-height: 138%;
+    }
+}

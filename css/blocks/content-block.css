@@ -1,0 +1,37 @@
+.content-block {
+max-width: 650px;
+
+@media (max-width: 1199px) {
+        max-width: 100%;
+    }
+}
+
+.content-block__title {
+margin-bottom: 27px; 
+
+@media (max-width: 1199px) {
+        margin-bottom: 17px;
+    }
+
+}
+.content-block__text {
+    margin-bottom: 36px;
+
+    font-size: 20px;
+    line-height: 200%;
+    color: var(--333333);
+
+    @media (max-width: 1199px) {
+        margin-bottom: 27px;
+    }
+    @media (max-width: 767px) {
+        margin-bottom: 17px;
+
+        font-size: 14px;
+        line-height: 171%;
+    }
+}
+
+.content-block__btn {
+
+}

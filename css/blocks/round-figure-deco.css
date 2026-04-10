@@ -1,0 +1,67 @@
+.round-figure-deco {
+position: relative;
+}
+
+.round-figure-deco::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 75px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-image: url(./../../img/svg/star-medium.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+     @media (max-width: 1199px) {
+        left: -20px;
+    }
+    @media (max-width: 767px) {
+        left: -5px;
+        width: 22px;
+        height: 38px;
+}
+}
+
+.round-figure-deco::after {
+    content: '';
+    display: block;
+    width: 52px;
+    height: 64px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    background-image: url(./../../img/svg/vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+     @media (max-width: 1199px) {
+        right: -20px;
+    }
+    @media (max-width: 767px) {
+        right: -5px;
+        width: 26px;
+        height: 32px;
+}
+}
+
+.round-figure-deco__img {
+    border-radius: 300px;
+    object-fit: cover;
+
+    @media (max-width: 1199px) {
+        height: 400px;
+    }
+
+    @media (max-width: 767px) {
+        max-height: 200px;
+        /* width: 100%; */
+
+    }
+
+}
