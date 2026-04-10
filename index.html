@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet SPA</title>
 	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./js/swiper/swiper-bundle.min.css">
+	
+
 
 	<link rel="icon" type="image/x-icon" href="./img/favicon/favicon.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
@@ -232,7 +235,13 @@
 
 		<section class="section">
 			<div class="container">
-				<div class="slide-item">
+
+				<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+					<div class="swiper-slide slide-item">
 					<div class="slide-item__img-wrapper">
 						<img src="./img/slider/slider-img.svg" alt="Quisque mattis">
 					</div>
@@ -242,11 +251,46 @@
 					<div class="slide-item__name">Quisque mattis
 					</div>
 				</div>
+
+				<div class="swiper-slide slide-item">
+					<div class="slide-item__img-wrapper">
+						<img src="./img/slider/slider-img.svg" alt="Quisque mattis">
+					</div>
+					<div class="slide-item__text">
+						<p>“Absolutely wonderful service! My dog came back looking amazing and seemed so relaxed. The staff truly care about the pets they work with. I’ve never seen my cat this calm after grooming. The team is patient, professional, and clearly loves animals. Highly recommended!”</p>
+					</div>
+					<div class="slide-item__name">Quisque mattis
+					</div>
+				</div>
+
+				<div class="swiper-slide slide-item">
+					<div class="slide-item__img-wrapper">
+						<img src="./img/slider/slider-img.svg" alt="Quisque mattis">
+					</div>
+					<div class="slide-item__text">
+						<p>“Absolutely wonderful service! My dog came back looking amazing and seemed so relaxed. The staff truly care about the pets they work with. I’ve never seen my cat this calm after grooming. The team is patient, professional, and clearly loves animals. Highly recommended!”</p>
+					</div>
+					<div class="slide-item__name">Quisque mattis
+					</div>
+				</div>
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
+				
 			</div>
 		</section>
 
 	</main>
-
+	<script src="./js/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/main.js"></script>
 </body>
 
 </html>
