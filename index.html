@@ -287,7 +287,72 @@
 			</div>
 		</section>
 
+		<section class="section">
+			<div class="container">
+				<picture>
+
+					<source media="(max-width: 767px)"
+					srcset="
+						./img/panes/03/mobile.jpg 1x,
+						./img/panes/03/mobile@2x.jpg 2x" >
+
+					<source media="(max-width: 1199px)"
+					srcset="
+						./img/panes/03/tablet.jpg 1x, 
+						./img/panes/03/tablet@2x.jpg 2x" >
+
+					<img src="./img/panes/03/desktop.jpg"
+					srcset="./img/panes/03/desktop.jpg, ./img/panes/02/desktop@2x.jpg"
+					alt="ImagePane">
+				</picture>
+
+
+			</div>
+		</section>
+
 	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__content">
+				<div class="footer__logo">
+					<img src="./img/footer/footer-logo.svg" alt="logo">
+				</div>
+				<div class="footer__nav-wrapper">
+					<nav class="footer__nav">
+						<h3 class="footer__nav-title">Menu</h3>
+						<ul class="footer__nav__list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+
+					<div class="footer__nav">
+						<h3 class="footer__nav-title">Contact</h3>
+						<ul class="footer__nav-list">
+							<li>Pawfections@contact.com</li>
+							<li>+012-345-6789</li>
+							<li>9889 Lorem Ipsum street, Pellentesque, CA, USA</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="footer__copyright">
+				<div class="footer__copyright-text">Copyright Dotcreativemarket</div>
+				<ul class="footer__copyright-list">
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</footer>
+
 	<script src="./js/swiper/swiper-bundle.min.js"></script>
 	<script src="./js/main.js"></script>
 </body>

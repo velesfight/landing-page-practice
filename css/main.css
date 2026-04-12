@@ -15,6 +15,7 @@
 @import './blocks/service-block.css';
 @import './blocks/paw-list.css';
 @import './blocks/slide-item.css';
+@import './blocks/footer-nav.css';
 
 /* Sections */
 @import './sections/nav.css';
@@ -23,3 +24,4 @@
 @import './sections/section-treat.css';
 @import './sections/section-service.css';
 @import './sections/section-care.css';
+@import './sections/footer.css';
