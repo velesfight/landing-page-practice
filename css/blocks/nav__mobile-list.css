@@ -1,0 +1,20 @@
+.nav__mobile-list {
+    margin-bottom: 26px;
+    padding: 24px 24px;
+    background: #efbd68;
+    border-radius:24px;
+    display: grid;
+    row-gap: 4px;
+    
+
+}
+
+.nav__mobile-list__link {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.15;
+    color: var(--333333);
+}

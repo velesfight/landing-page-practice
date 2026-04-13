@@ -16,7 +16,7 @@
 
 <body>
 
-	<nav class="nav">
+	<nav class="nav nav--mobile-open">
 		<div class="container">
 			<div class="nav__row">
 				<div class="nav__list">
@@ -42,12 +42,30 @@
 					<a href="#" class="button">Book</a>
 				</div>
 				<div class="nav__mobile-btn">
-					<button class="mobile-nav-btn">
+					<button class="mobile-nav-btn" id="mobile-nav-btn" type="button">
 						<img src="./img/svg/mobile-nav-btn-closed.svg" alt="Menu">
 					</button>
 				</div>
 
 			</div>
+
+		<div class="nav__mobile" id="mobile-nav-panel">
+			<ul class="nav__mobile-list">
+				<li class="nav__mobile-list__item">
+					<a href="#" class="nav__mobile-list__link">Home</a>
+				</li>
+				<li class="nav__mobile-list__item">
+					<a href="#" class="nav__mobile-list__link">About</a>
+				</li>
+				<li class="nav__mobile-list__item">
+					<a href="#" class="nav__mobile-list__link">Services</a>
+				</li>
+				<li class="nav__mobile-list__item">
+					<a href="#" class="nav__mobile-list__link">Contact</a>
+				</li>
+			</ul>
+		</div>	
+
 		</div>
 	</nav>
 

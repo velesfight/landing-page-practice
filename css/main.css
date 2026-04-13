@@ -16,6 +16,7 @@
 @import './blocks/paw-list.css';
 @import './blocks/slide-item.css';
 @import './blocks/footer-nav.css';
+@import './blocks/nav__mobile-list.css';
 
 /* Sections */
 @import './sections/nav.css';

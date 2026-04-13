@@ -33,8 +33,9 @@
             'btn mobile-btn'
             'logo logo';
 
-        row-gap: 30px;
+        row-gap: 40px;
         column-gap: 12px;
+        margin-bottom: 10px;
     }
 }
 
@@ -69,3 +70,27 @@ text-align: right;
     }
 }
 }
+
+.nav__mobile {
+    display: none;
+}
+
+ @media (max-width: 767px) {
+    .nav__mobile {
+        display: block;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: all 0.04s ease;
+
+    }
+    .nav.nav--mobile-open .nav__mobile {
+        max-height: 340px;
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+
+    }
+ }
